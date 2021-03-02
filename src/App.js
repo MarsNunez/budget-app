@@ -1,8 +1,16 @@
+import Question from './components/Question';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <div class="container">
+        <header>
+          <h1>React Budget</h1>
+          <div className="contenido-principal contenido">
+            <Question />
+          </div>
+        </header>
+      </div>
     </div>
   );
 }
